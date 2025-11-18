@@ -56,15 +56,24 @@ Structured route separation (Users, Events, Registration)
 
 ## Tech Stack
 
-Category	Implementation
-Language	Go
-Framework	Gin
-Authentication	JWT (HS256)
-Password Security	bcrypt
-Database	SQLite
-Run Locally
+
+
+Language:	Go
+
+Framework: Gin
+
+Authentication:	JWT (HS256)
+
+Password Security:	bcrypt
+
+Database:	SQLite
+
+## Run Locally
+
 go mod tidy
+
 go run main.go
+
 
 
 Server Default URL:
