@@ -1,0 +1,25 @@
+package middleware
+
+import (
+	"net/http"
+
+	"github.com/gin-gonic/gin"
+	"github.com/iiiamnick/GOLANG--REST-API-EVENT-BOOKING-.git/utils"
+)
+
+func Authenticate(context *gin.Context) {
+	token := context.Request.Header.Get("Authorization")
+	if token == "" {
+		context.AbortWithStatusJSON(http.StatusUnauthorized, gin.H{"message": "not authorized"})
+		return
+	}
+
+	userId, err := utils.VerifyToken(token)
+	if err != nil {
+		context.AbortWithStatusJSON(http.StatusUnauthorized, gin.H{"message": "not authorized"})
+		return
+	}
+
+	context.Next()
+	context.Set("userId", userId)
+}
