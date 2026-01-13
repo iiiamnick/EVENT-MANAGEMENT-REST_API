@@ -3,7 +3,7 @@ package models
 import (
 	"time"
 
-	"github.com/iiiamnick/EVENT-MANAGEMENT-REST_API.git/db"
+	"github.com/iiiamnick/EVENT-MANAGEMENT-REST_API/db"
 )
 
 type Event struct {
