@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/iiiamnick/EVENT-MANAGEMENT-REST_API.git/models"
-	"github.com/iiiamnick/EVENT-MANAGEMENT-REST_API.git/utils"
+	"github.com/iiiamnick/EVENT-MANAGEMENT-REST_API/models"
+	"github.com/iiiamnick/EVENT-MANAGEMENT-REST_API/utils"
 )
 
 func signup(context *gin.Context) {
