@@ -5,7 +5,7 @@ import (
 	"strconv"
 
 	"github.com/gin-gonic/gin"
-	"github.com/iiiamnick/EVENT-MANAGEMENT-REST_API.git/models"
+	"github.com/iiiamnick/EVENT-MANAGEMENT-REST_API/models"
 )
 
 func getEvents(context *gin.Context) {
