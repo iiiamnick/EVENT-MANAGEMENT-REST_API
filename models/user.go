@@ -3,8 +3,8 @@ package models
 import (
 	"errors"
 
-	"github.com/iiiamnick/EVENT-MANAGEMENT-REST_API.git/db"
-	"github.com/iiiamnick/EVENT-MANAGEMENT-REST_API.git/utils"
+	"github.com/iiiamnick/EVENT-MANAGEMENT-REST_API/db"
+	"github.com/iiiamnick/EVENT-MANAGEMENT-REST_API/utils"
 )
 
 type User struct {
