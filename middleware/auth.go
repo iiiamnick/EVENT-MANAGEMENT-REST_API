@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/iiiamnick/GOLANG--REST-API-EVENT-BOOKING-.git/utils"
+	"github.com/iiiamnick/EVENT-MANAGEMENT-REST_API/utils"
 )
 
 func Authenticate(context *gin.Context) {
