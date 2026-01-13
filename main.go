@@ -2,8 +2,8 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/iiiamnick/GOLANG--REST-API-EVENT-BOOKING-.git/db"
-	"github.com/iiiamnick/GOLANG--REST-API-EVENT-BOOKING-.git/routes"
+	"github.com/iiiamnick/EVENT-MANAGEMENT-REST_API/db"
+	"github.com/iiiamnick/EVENT-MANAGEMENT-REST_API/routes"
 )
 
 func main() {

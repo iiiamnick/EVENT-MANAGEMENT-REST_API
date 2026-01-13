@@ -2,7 +2,7 @@ package routes
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/iiiamnick/GOLANG--REST-API-EVENT-BOOKING-.git/middleware"
+	"github.com/iiiamnick/EVENT-MANAGEMENT-REST_API.git/middleware"
 )
 
 func RegisterRoutes(server *gin.Engine) {

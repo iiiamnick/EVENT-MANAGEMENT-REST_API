@@ -1,4 +1,4 @@
-module github.com/iiiamnick/GOLANG--REST-API-EVENT-BOOKING-.git
+module github.com/iiiamnick/EVENT-MANAGEMENT-REST_API
 
 go 1.23.2
 
